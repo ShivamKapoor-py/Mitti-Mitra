@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734976809820",
+    "project_id": "mitti-mitra-452a1",
+    "storage_bucket": "mitti-mitra-452a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734976809820:android:62d891db7dc59016673f99",
+        "android_client_info": {
+          "package_name": "com.example.mittimitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdMLYOW5rtcyEAHIFWBqYeO3-8ChaOrb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

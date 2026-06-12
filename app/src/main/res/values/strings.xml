@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mitti Mitra</string>
+    <string name="back">Back</string>
+
+
+    <string-array name="crops_array">
+        <item>Wheat</item>
+        <item>Rice</item>
+        <item>Maize</item>
+        <item>Cotton</item>
+        <item>Potato</item>
+        <item>Sugarcane</item>
+        <item>Soyabean</item>
+        <item>Tomato</item>
+        <item>Groundnut</item>
+        <item>Barley</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem Selection"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <!-- Fertilizer Recommendation -->
+    <LinearLayout
+        android:id="@+id/btn_fertilizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6F7E9"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:backgroundTintMode="src_in"
+        android:clipToOutline="true">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_fertilizer"
+            android:contentDescription="Fertilizer Icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fertilizer Recommendation"
+                android:textColor="#00AA00"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tailored to your crop and soil’s NPK levels for optimal growth."
+                android:textSize="14sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_pesticide"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6F7E9"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:backgroundTintMode="src_in"
+        android:clipToOutline="true">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_pesticide"
+            android:contentDescription="Fertilizer Icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pesticide Recommendation"
+                android:textColor="#00AA00"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Targeted solutions with precise measurements for effective pest."
+                android:textSize="14sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_irrigation"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6F7E9"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center_vertical"
+    android:backgroundTintMode="src_in"
+    android:clipToOutline="true">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_fertilizer"
+        android:contentDescription="Fertilizer Icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Irrigation Management"
+            android:textColor="#00AA00"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart alerts and real-time monitoring for efficient water usage."
+            android:textSize="14sp"
+            android:textColor="#555555" />
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_nutrition"
+
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6F7E9"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center_vertical"
+    android:backgroundTintMode="src_in"
+    android:clipToOutline="true">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_fertilizer"
+        android:contentDescription="Fertilizer Icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutiritional Value Prediction"
+            android:textColor="#00AA00"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forecasts and actionable tips to boost your crop's nutrient content."
+            android:textSize="14sp"
+            android:textColor="#555555" />
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_shelflife"
+
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6F7E9"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center_vertical"
+    android:backgroundTintMode="src_in"
+    android:clipToOutline="true">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_fertilizer"
+        android:contentDescription="Fertilizer Icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Shelf Life Improvement"
+            android:textColor="#00AA00"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strategies to extend freshness and reduce waste."
+            android:textSize="14sp"
+            android:textColor="#555555" />
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:gravity="bottom"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="#F6F8F9"
+        app:itemIconTint="@color/text_secondary"
+        app:itemTextColor="@color/text_secondary"
+        app:menu="@menu/bottom_nav" />
+</LinearLayout>

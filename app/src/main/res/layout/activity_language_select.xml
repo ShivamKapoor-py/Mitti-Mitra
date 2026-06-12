@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <include layout="@layout/include_topbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Language"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp">
+        <Button
+            android:id="@+id/btn_english"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="English"
+            android:textSize="14sp"
+            android:textColor="#2D9D78"
+            app:strokeColor="#2D9D78"
+            app:cornerRadius="24dp"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/btn_hindi"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="हिंदी"
+            android:textSize="14sp"
+            android:textColor="#2D9D78"
+            app:strokeColor="#2D9D78"
+            app:cornerRadius="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_continue"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/control_height"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:backgroundTint="@color/brand_green_dark"
+            app:rippleColor="@color/brand_green_dark"
+            android:layout_gravity="bottom"
+            app:cornerRadius="12dp"
+            app:iconTint="@android:color/white"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
